@@ -1,1 +1,27 @@
+# Autorun Intake Contract
+
+Purpose:
+Define how raw content enters the autorun system.
+
+Accepted Inputs:
+- Transcripts
+- Audio recordings
+- Voice notes
+- Misc raw notes
+
+Source Location:
+Google Drive > 00_AUTORUN_INBOX
+
+Rules:
+- Any new file added is treated as raw input.
+- Files are ingested automatically.
+- Files are never modified at the source.
+- Each file must be logged with a timestamp and source path.
+
+Processing Behavior:
+- Ingestion runs continuously.
+- Processing is silent and unattended.
+- No human approval is required for intake.
+
+This contract establishes the non-blocking intake boundary for the system.
 
